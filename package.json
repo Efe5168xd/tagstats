@@ -1,19 +1,20 @@
 {
   "name": "roblox-discord-bot",
   "version": "1.0.0",
-  "description": "Discord bot + Roblox custom tag sistemi",
+  "description": "Discord bot for Roblox custom tags and group management",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
-  "dependencies": {
-    "discord.js": "^14.13.0",
-    "noblox.js": "^4.0.0",
-    "cross-fetch": "^3.1.5",
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2"
-  },
   "engines": {
-    "node": "20.x"
-  }
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.1",
+    "noblox.js": "^4.3.0",
+    "cross-fetch": "^3.1.8",
+    "cheerio": "^1.1.2"
+  },
+  "author": "",
+  "license": "MIT"
 }
